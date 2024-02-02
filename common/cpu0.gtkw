@@ -1,0 +1,313 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Thu Feb  1 13:52:48 2024
+[*]
+[dumpfile] "/home/mescoutelou/Cours/riscv-sim/tp1/vcd/cpu0-main.vcd"
+[dumpfile_mtime] "Thu Feb  1 13:38:21 2024"
+[dumpfile_size] 861240
+[savefile] "/home/mescoutelou/Cours/riscv-sim/common/cpu0.gtkw"
+[timestart] 2
+[size] 1850 1016
+[pos] -1 -1
+*-6.593832 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] TOP.
+[treeopen] TOP.Estive.
+[treeopen] TOP.Estive.m_cheptel.
+[treeopen] TOP.Estive.m_cheptel.m_aubrac.
+[treeopen] TOP.Estive.m_cheptel.m_aubrac.m_io.
+[treeopen] TOP.Estive.m_cheptel.m_aubrac.m_io.m_mmap.
+[sst_width] 444
+[signals_width] 326
+[sst_expanded] 1
+[sst_vpaned_height] 289
+@28
+TOP.clock
+TOP.reset
+@22
++{PC} TOP.io_o_sim_hart_0_last[31:0]
+@24
++{cycle} TOP.io_o_sim_hart_0_csr_riscv_cycle[63:0]
+@c00200
+-GPR
+@22
++{x0/zero } TOP.io_o_sim_hart_0_x_0[31:0]
++{x1/ra   } TOP.io_o_sim_hart_0_x_1[31:0]
++{x2/sp   } TOP.io_o_sim_hart_0_x_2[31:0]
++{x3/gp   } TOP.io_o_sim_hart_0_x_3[31:0]
++{x4/tp   } TOP.io_o_sim_hart_0_x_4[31:0]
++{x5/t0   } TOP.io_o_sim_hart_0_x_5[31:0]
++{x6/t1   } TOP.io_o_sim_hart_0_x_6[31:0]
++{x7/t2   } TOP.io_o_sim_hart_0_x_7[31:0]
++{x8/s0   } TOP.io_o_sim_hart_0_x_8[31:0]
++{x9/s1   } TOP.io_o_sim_hart_0_x_9[31:0]
++{x10/a0  } TOP.io_o_sim_hart_0_x_10[31:0]
++{x11/a1  } TOP.io_o_sim_hart_0_x_11[31:0]
++{x12/a2  } TOP.io_o_sim_hart_0_x_12[31:0]
++{x13/a3  } TOP.io_o_sim_hart_0_x_13[31:0]
++{x14/a4  } TOP.io_o_sim_hart_0_x_14[31:0]
++{x15/a5  } TOP.io_o_sim_hart_0_x_15[31:0]
++{x16/a6  } TOP.io_o_sim_hart_0_x_16[31:0]
++{x17/a7  } TOP.io_o_sim_hart_0_x_17[31:0]
++{x18/s2  } TOP.io_o_sim_hart_0_x_18[31:0]
++{x19/s3  } TOP.io_o_sim_hart_0_x_19[31:0]
++{x20/s4  } TOP.io_o_sim_hart_0_x_20[31:0]
++{x21/s5  } TOP.io_o_sim_hart_0_x_21[31:0]
++{x22/s6  } TOP.io_o_sim_hart_0_x_22[31:0]
++{x23/s7  } TOP.io_o_sim_hart_0_x_23[31:0]
++{x24/s8  } TOP.io_o_sim_hart_0_x_24[31:0]
++{x25/s9  } TOP.io_o_sim_hart_0_x_25[31:0]
++{x26/s10 } TOP.io_o_sim_hart_0_x_26[31:0]
++{x27/s11 } TOP.io_o_sim_hart_0_x_27[31:0]
++{x28/t3  } TOP.io_o_sim_hart_0_x_28[31:0]
++{x29/t4  } TOP.io_o_sim_hart_0_x_29[31:0]
++{x30/t5  } TOP.io_o_sim_hart_0_x_30[31:0]
++{x31/t6  } TOP.io_o_sim_hart_0_x_31[31:0]
+@1401200
+-GPR
+@c00200
+-HPC
+@24
++{instret } TOP.io_o_sim_hart_0_hpc_instret[63:0]
++{alu     } TOP.io_o_sim_hart_0_hpc_alu[63:0]
++{call    } TOP.io_o_sim_hart_0_hpc_call[63:0]
++{i32     } TOP.io_o_sim_hart_0_hpc_i32[63:0]
++{jal     } TOP.io_o_sim_hart_0_hpc_jal[63:0]
++{jalr    } TOP.io_o_sim_hart_0_hpc_jalr[63:0]
++{ld      } TOP.io_o_sim_hart_0_hpc_ld[63:0]
++{mispred } TOP.io_o_sim_hart_0_hpc_mispred[63:0]
++{rdcycle } TOP.io_o_sim_hart_0_hpc_rdcycle[63:0]
++{ret     } TOP.io_o_sim_hart_0_hpc_ret[63:0]
++{rport0  } TOP.io_o_sim_hart_0_hpc_rport0[63:0]
++{rport1  } TOP.io_o_sim_hart_0_hpc_rport1[63:0]
++{rport2  } TOP.io_o_sim_hart_0_hpc_rport2[63:0]
++{st      } TOP.io_o_sim_hart_0_hpc_st[63:0]
++{L1D_hit } TOP.io_o_sim_hart_0_hpc_l1dhit[63:0]
++{L1D_miss} TOP.io_o_sim_hart_0_hpc_l1dmiss[63:0]
++{L1I_hit } TOP.io_o_sim_hart_0_hpc_l1ihit[63:0]
++{L1I_miss} TOP.io_o_sim_hart_0_hpc_l1imiss[63:0]
+@1401200
+-HPC
+@c00200
+-I/Os
+@22
++{GPIOA_eno } TOP.io_b_gpio_0_eno[31:0]
++{GPIOA_in  } TOP.io_b_gpio_0_in[31:0]
+@c00022
++{GPIOA_out } TOP.io_b_gpio_0_out[31:0]
+@28
+(0)TOP.io_b_gpio_0_out[31:0]
+(1)TOP.io_b_gpio_0_out[31:0]
+(2)TOP.io_b_gpio_0_out[31:0]
+(3)TOP.io_b_gpio_0_out[31:0]
+(4)TOP.io_b_gpio_0_out[31:0]
+(5)TOP.io_b_gpio_0_out[31:0]
+(6)TOP.io_b_gpio_0_out[31:0]
+(7)TOP.io_b_gpio_0_out[31:0]
+(8)TOP.io_b_gpio_0_out[31:0]
+(9)TOP.io_b_gpio_0_out[31:0]
+(10)TOP.io_b_gpio_0_out[31:0]
+(11)TOP.io_b_gpio_0_out[31:0]
+(12)TOP.io_b_gpio_0_out[31:0]
+(13)TOP.io_b_gpio_0_out[31:0]
+(14)TOP.io_b_gpio_0_out[31:0]
+(15)TOP.io_b_gpio_0_out[31:0]
+(16)TOP.io_b_gpio_0_out[31:0]
+(17)TOP.io_b_gpio_0_out[31:0]
+(18)TOP.io_b_gpio_0_out[31:0]
+(19)TOP.io_b_gpio_0_out[31:0]
+(20)TOP.io_b_gpio_0_out[31:0]
+(21)TOP.io_b_gpio_0_out[31:0]
+(22)TOP.io_b_gpio_0_out[31:0]
+(23)TOP.io_b_gpio_0_out[31:0]
+(24)TOP.io_b_gpio_0_out[31:0]
+(25)TOP.io_b_gpio_0_out[31:0]
+(26)TOP.io_b_gpio_0_out[31:0]
+(27)TOP.io_b_gpio_0_out[31:0]
+(28)TOP.io_b_gpio_0_out[31:0]
+(29)TOP.io_b_gpio_0_out[31:0]
+(30)TOP.io_b_gpio_0_out[31:0]
+(31)TOP.io_b_gpio_0_out[31:0]
+@1401200
+-group_end
+@c00200
+-GPIOA
+@1401200
+-GPIOA
+@c00022
++{GPIOB_eno } TOP.io_b_gpio_1_eno[31:0]
+@28
+(0)TOP.io_b_gpio_1_eno[31:0]
+(1)TOP.io_b_gpio_1_eno[31:0]
+(2)TOP.io_b_gpio_1_eno[31:0]
+(3)TOP.io_b_gpio_1_eno[31:0]
+(4)TOP.io_b_gpio_1_eno[31:0]
+(5)TOP.io_b_gpio_1_eno[31:0]
+(6)TOP.io_b_gpio_1_eno[31:0]
+(7)TOP.io_b_gpio_1_eno[31:0]
+(8)TOP.io_b_gpio_1_eno[31:0]
+(9)TOP.io_b_gpio_1_eno[31:0]
+(10)TOP.io_b_gpio_1_eno[31:0]
+(11)TOP.io_b_gpio_1_eno[31:0]
+(12)TOP.io_b_gpio_1_eno[31:0]
+(13)TOP.io_b_gpio_1_eno[31:0]
+(14)TOP.io_b_gpio_1_eno[31:0]
+(15)TOP.io_b_gpio_1_eno[31:0]
+(16)TOP.io_b_gpio_1_eno[31:0]
+(17)TOP.io_b_gpio_1_eno[31:0]
+(18)TOP.io_b_gpio_1_eno[31:0]
+(19)TOP.io_b_gpio_1_eno[31:0]
+(20)TOP.io_b_gpio_1_eno[31:0]
+(21)TOP.io_b_gpio_1_eno[31:0]
+(22)TOP.io_b_gpio_1_eno[31:0]
+(23)TOP.io_b_gpio_1_eno[31:0]
+(24)TOP.io_b_gpio_1_eno[31:0]
+(25)TOP.io_b_gpio_1_eno[31:0]
+(26)TOP.io_b_gpio_1_eno[31:0]
+(27)TOP.io_b_gpio_1_eno[31:0]
+(28)TOP.io_b_gpio_1_eno[31:0]
+(29)TOP.io_b_gpio_1_eno[31:0]
+(30)TOP.io_b_gpio_1_eno[31:0]
+(31)TOP.io_b_gpio_1_eno[31:0]
+@1401200
+-group_end
+@22
++{GPIOB_in  } TOP.io_b_gpio_1_in[31:0]
++{GPIOB_out } TOP.io_b_gpio_1_out[31:0]
+@c00200
+-GPIOB
+@28
++{PIN0_LED0} (31)TOP.io_b_gpio_1_out[31:0]
++{PIN1_LED1} (30)TOP.io_b_gpio_1_out[31:0]
++{PIN2_LED2} (29)TOP.io_b_gpio_1_out[31:0]
++{PIN3_LED3} (28)TOP.io_b_gpio_1_out[31:0]
+@1401200
+-GPIOB
+@22
++{GPIOC_eno} TOP.io_b_gpio_2_eno[31:0]
++{GPIOC_in } TOP.io_b_gpio_2_in[31:0]
++{GPIOC_out} TOP.io_b_gpio_2_out[31:0]
+@c00200
+-GPIOC
+@28
++{PIN31_END} (0)TOP.io_b_gpio_2_out[31:0]
+@1401200
+-GPIOC
+-I/Os
+@c00200
+-Memory
+@22
++{SCRATCH0} TOP.Estive.m_cheptel.m_aubrac.m_io.m_mmap.r_scratch_0[31:0]
++{SCRATCH1} TOP.Estive.m_cheptel.m_aubrac.m_io.m_mmap.r_scratch_1[31:0]
++{SCRATCH2} TOP.Estive.m_cheptel.m_aubrac.m_io.m_mmap.r_scratch_2[31:0]
++{SCRATCH3} TOP.Estive.m_cheptel.m_aubrac.m_io.m_mmap.r_scratch_3[31:0]
++{SCRATCH4} TOP.Estive.m_cheptel.m_aubrac.m_io.m_mmap.r_scratch_4[31:0]
++{SCRATCH5} TOP.Estive.m_cheptel.m_aubrac.m_io.m_mmap.r_scratch_5[31:0]
++{SCRATCH6} TOP.Estive.m_cheptel.m_aubrac.m_io.m_mmap.r_scratch_6[31:0]
++{SCRATCH7} TOP.Estive.m_cheptel.m_aubrac.m_io.m_mmap.r_scratch_7[31:0]
+@1401200
+-Memory
+@c00200
+-Pipeline
+-IF0
+@28
++{valid} TOP.Estive.m_cheptel.m_aubrac.m_pipe.m_front.m_pc.io_b_out_valid
+@22
++{PC} TOP.Estive.m_cheptel.m_aubrac.m_pipe.m_front.m_pc.io_b_out_ctrl_pc[31:0]
+@1401200
+-IF0
+@c00200
+-IF1
+@28
++{valid} TOP.Estive.m_cheptel.m_aubrac.m_pipe.m_front.m_if0.io_b_out_valid
+@22
++{PC} TOP.Estive.m_cheptel.m_aubrac.m_pipe.m_front.m_if0.io_b_out_ctrl_pc[31:0]
++{instr} TOP.Estive.m_cheptel.m_aubrac.m_pipe.m_front.m_if3.m_buf.io_b_in_0_ctrl_instr[31:0]
+@1401200
+-IF1
+@c00200
+-ID
+@28
++{valid} TOP.Estive.m_cheptel.m_aubrac.m_pipe.m_front.io_b_out_0_valid
+@22
++{PC} TOP.Estive.m_cheptel.m_aubrac.m_pipe.m_front.io_b_out_0_ctrl_pc[31:0]
++{instr} TOP.Estive.m_cheptel.m_aubrac.m_pipe.m_front.io_b_out_0_ctrl_instr[31:0]
++{s1} TOP.Estive.m_cheptel.m_aubrac.m_pipe.m_back.m_id.m_out.io_b_in_data_s1[31:0]
++{s2} TOP.Estive.m_cheptel.m_aubrac.m_pipe.m_back.m_id.m_out.io_b_in_data_s2[31:0]
++{s3} TOP.Estive.m_cheptel.m_aubrac.m_pipe.m_back.m_id.m_out.io_b_in_data_s3[31:0]
+@1401200
+-ID
+@c00200
+-EX
+@28
++{valid} TOP.Estive.m_cheptel.m_aubrac.m_pipe.m_back.m_id.io_b_out_valid
+@22
++{PC} TOP.Estive.m_cheptel.m_aubrac.m_pipe.m_back.m_id.io_b_out_ctrl_info_pc[31:0]
++{instr} TOP.Estive.m_cheptel.m_aubrac.m_pipe.m_back.m_id.io_b_out_ctrl_info_instr[31:0]
++{s1} TOP.Estive.m_cheptel.m_aubrac.m_pipe.m_back.m_id.io_b_out_data_s1[31:0]
++{s2} TOP.Estive.m_cheptel.m_aubrac.m_pipe.m_back.m_id.io_b_out_data_s2[31:0]
++{s3} TOP.Estive.m_cheptel.m_aubrac.m_pipe.m_back.m_id.io_b_out_data_s3[31:0]
++{res} TOP.Estive.m_cheptel.m_aubrac.m_pipe.m_back.m_ex.m_out.io_b_in_data_res[31:0]
+@1401200
+-EX
+@c00200
+-MEM
+@28
++{valid} TOP.Estive.m_cheptel.m_aubrac.m_pipe.m_back.m_ex.io_b_out_valid
+@22
++{PC} TOP.Estive.m_cheptel.m_aubrac.m_pipe.m_back.m_ex.io_b_out_ctrl_info_pc[31:0]
++{instr} TOP.Estive.m_cheptel.m_aubrac.m_pipe.m_back.m_ex.io_b_out_ctrl_info_instr[31:0]
++{res} TOP.Estive.m_cheptel.m_aubrac.m_pipe.m_back.m_ex.io_b_out_data_res[31:0]
++{s1} TOP.Estive.m_cheptel.m_aubrac.m_pipe.m_back.m_ex.io_b_out_data_s1[31:0]
++{s3} TOP.Estive.m_cheptel.m_aubrac.m_pipe.m_back.m_ex.io_b_out_data_s3[31:0]
+@1401200
+-MEM
+@c00200
+-WB
+@28
++{valid} TOP.Estive.m_cheptel.m_aubrac.m_pipe.m_back.m_mem.io_b_out_valid
+@22
++{PC} TOP.Estive.m_cheptel.m_aubrac.m_pipe.m_back.m_mem.io_b_out_ctrl_info_pc[31:0]
++{instr} TOP.Estive.m_cheptel.m_aubrac.m_pipe.m_back.m_mem.io_b_out_ctrl_info_instr[31:0]
++{res} TOP.Estive.m_cheptel.m_aubrac.m_pipe.m_back.m_wb.w_res[31:0]
++{s1} TOP.Estive.m_cheptel.m_aubrac.m_pipe.m_back.m_mem.io_b_out_data_s1[31:0]
++{s3} TOP.Estive.m_cheptel.m_aubrac.m_pipe.m_back.m_mem.io_b_out_data_s3[31:0]
+@1401200
+-WB
+@c00200
+-IPort
+@28
++{req_ready} TOP.Estive.m_cheptel.m_aubrac.m_pipe.io_b_imem_req_ready
++{req_valid} TOP.Estive.m_cheptel.m_aubrac.m_pipe.io_b_imem_req_valid
+@22
++{req_addr} TOP.Estive.m_cheptel.m_aubrac.m_pipe.io_b_imem_req_ctrl_addr[31:0]
+@28
++{read_ready} TOP.Estive.m_cheptel.m_aubrac.m_pipe.io_b_imem_read_ready
++{read_valid} TOP.Estive.m_cheptel.m_aubrac.m_pipe.io_b_imem_read_valid
+@22
++{read_data} TOP.Estive.m_cheptel.m_aubrac.m_pipe.io_b_imem_read_data[31:0]
+@1401200
+-IPort
+@c00200
+-DPort
+@28
++{req_ready} TOP.Estive.m_cheptel.m_aubrac.m_pipe.io_b_dmem_req_ready
++{req_valid} TOP.Estive.m_cheptel.m_aubrac.m_pipe.io_b_dmem_req_valid
++{req_rw} TOP.Estive.m_cheptel.m_aubrac.m_pipe.io_b_dmem_req_ctrl_op
++{req_size} TOP.Estive.m_cheptel.m_aubrac.m_pipe.io_b_dmem_req_ctrl_size[2:0]
+@22
++{req_addr} TOP.Estive.m_cheptel.m_aubrac.m_pipe.io_b_dmem_req_ctrl_addr[31:0]
+@28
++{read_ready} TOP.Estive.m_cheptel.m_aubrac.m_pipe.io_b_dmem_read_ready
++{read_valid} TOP.Estive.m_cheptel.m_aubrac.m_pipe.io_b_dmem_read_valid
+@22
++{read_data} TOP.Estive.m_cheptel.m_aubrac.m_pipe.io_b_dmem_read_data[31:0]
+@28
++{write_ready} TOP.Estive.m_cheptel.m_aubrac.m_pipe.io_b_dmem_write_ready
++{write_valid} TOP.Estive.m_cheptel.m_aubrac.m_pipe.io_b_dmem_write_valid
+@22
++{write_data} TOP.Estive.m_cheptel.m_aubrac.m_pipe.io_b_dmem_write_data[31:0]
+@1401200
+-DPort
+-Pipeline
+[pattern_trace] 1
+[pattern_trace] 0
