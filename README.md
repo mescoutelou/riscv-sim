@@ -1,4 +1,4 @@
-# RISC-V Simulation
+# Simulateur de microarchitectures RISC-V
 
 
 ## Version des processeurs
