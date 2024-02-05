@@ -36,5 +36,6 @@ uint16_t func_mulp2_c (uint8_t a, uint8_t b) {
 }
 
 uint16_t func_mulinl_c (uint8_t a, uint8_t b) {
-  return func_mulinl_base_c (a, b);
+  // return func_mulinl_base_c (a, b);
+  return 0;
 }
