@@ -43,10 +43,9 @@ main:
 //  andi x19, x14, 1
 
 //  li x20, IO_CORE_ADDR_SCRATCH_BASE
-//  li x10, 4
 //  lw x11, 0(x20)
 //  lw x16, 4(x20)
-//  add x12, x10, x11
+//  addi x12, x11, 4
 //  srli x13, x11, 2
 //  add x17, x16, x11
 //  add x14, x12, x13
@@ -57,18 +56,17 @@ main:
 
   UARCH_OPT1_EN
   
-//  li x20, IO_CORE_ADDR_SCRATCH_BASE
-//  lw x11, 0(x20)
-//  li x10, 4
-//  lw x16, 4(x20)
-//  add x12, x10, x11
-//  srli x13, x11, 2
-//  add x17, x16, x11
-//  add x14, x12, x13
-//  sw x14, 8(x20)
-//  add x18, x17, x14
-//  andi x19, x14, 1
-//  sw x18, 12(x20)
+  li x20, IO_CORE_ADDR_SCRATCH_BASE
+  lw x11, 0(x20)
+  lw x16, 4(x20)
+  addi x12, x11, 4
+  srli x13, x11, 2
+  add x17, x16, x11
+  add x14, x12, x13
+  sw x14, 8(x20)
+  add x18, x17, x14
+  andi x19, x14, 1
+  sw x18, 12(x20)
 
   call func_loop
 
