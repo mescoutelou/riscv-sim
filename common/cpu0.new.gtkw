@@ -1,16 +1,17 @@
 [*]
-[*] GTKWave Analyzer v3.3.111 (w)1999-2020 BSI
-[*] Tue Feb  6 15:25:43 2024
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Wed Oct  9 14:40:51 2024
 [*]
-[dumpfile] "/net/npers/mescoutelou/Cours/riscv-sim/tp1/vcd/cpu0-main.vcd"
-[dumpfile_mtime] "Mon Feb  5 13:54:36 2024"
-[dumpfile_size] 860430
-[savefile] "/net/npers/mescoutelou/Cours/riscv-sim/common/cpu0.gtkw"
+[dumpfile] "/home/mescoutelou/Cours/riscv-sim/tp1/vcd/cpu0-main.vcd"
+[dumpfile_mtime] "Wed Oct  9 14:37:47 2024"
+[dumpfile_size] 1385666
+[savefile] "/home/mescoutelou/Cours/riscv-sim/common/cpu0.new.gtkw"
 [timestart] 0
 [size] 1850 1016
 [pos] 0 51
 *-6.593832 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
-[treeopen] TOP.Sim.m_estive.m_cheptel.m_aubrac.m_io.m_mmap.
+[treeopen] TOP.
+[treeopen] TOP.Sim.
 [sst_width] 276
 [signals_width] 326
 [sst_expanded] 1
@@ -20,8 +21,6 @@ TOP.clock
 TOP.reset
 @22
 +{PC} TOP.io_o_sim_hart_0_last[31:0]
-@24
-+{cycle} TOP.io_o_sim_hart_0_csr_base_cycle[63:0]
 @c00200
 -GPR
 @22
@@ -82,10 +81,46 @@ TOP.reset
 +{L1I_miss} TOP.io_o_sim_hart_0_hpc_l1imiss[63:0]
 @1401200
 -HPC
-@c00200
+@800200
 -I/Os
-@22
+@c00022
 +{GPIOA_eno } TOP.io_b_gpio32_0_eno[31:0]
+@28
+(0)TOP.io_b_gpio32_0_eno[31:0]
+(1)TOP.io_b_gpio32_0_eno[31:0]
+(2)TOP.io_b_gpio32_0_eno[31:0]
+(3)TOP.io_b_gpio32_0_eno[31:0]
+(4)TOP.io_b_gpio32_0_eno[31:0]
+(5)TOP.io_b_gpio32_0_eno[31:0]
+(6)TOP.io_b_gpio32_0_eno[31:0]
+(7)TOP.io_b_gpio32_0_eno[31:0]
+(8)TOP.io_b_gpio32_0_eno[31:0]
+(9)TOP.io_b_gpio32_0_eno[31:0]
+(10)TOP.io_b_gpio32_0_eno[31:0]
+(11)TOP.io_b_gpio32_0_eno[31:0]
+(12)TOP.io_b_gpio32_0_eno[31:0]
+(13)TOP.io_b_gpio32_0_eno[31:0]
+(14)TOP.io_b_gpio32_0_eno[31:0]
+(15)TOP.io_b_gpio32_0_eno[31:0]
+(16)TOP.io_b_gpio32_0_eno[31:0]
+(17)TOP.io_b_gpio32_0_eno[31:0]
+(18)TOP.io_b_gpio32_0_eno[31:0]
+(19)TOP.io_b_gpio32_0_eno[31:0]
+(20)TOP.io_b_gpio32_0_eno[31:0]
+(21)TOP.io_b_gpio32_0_eno[31:0]
+(22)TOP.io_b_gpio32_0_eno[31:0]
+(23)TOP.io_b_gpio32_0_eno[31:0]
+(24)TOP.io_b_gpio32_0_eno[31:0]
+(25)TOP.io_b_gpio32_0_eno[31:0]
+(26)TOP.io_b_gpio32_0_eno[31:0]
+(27)TOP.io_b_gpio32_0_eno[31:0]
+(28)TOP.io_b_gpio32_0_eno[31:0]
+(29)TOP.io_b_gpio32_0_eno[31:0]
+(30)TOP.io_b_gpio32_0_eno[31:0]
+(31)TOP.io_b_gpio32_0_eno[31:0]
+@1401200
+-group_end
+@22
 +{GPIOA_in  } TOP.io_b_gpio32_0_in[31:0]
 @c00022
 +{GPIOA_out } TOP.io_b_gpio32_0_out[31:0]
@@ -187,122 +222,44 @@ TOP.reset
 +{PIN31_END} (0)TOP.io_b_gpio32_2_out[31:0]
 @1401200
 -GPIOC
+@1000200
 -I/Os
-@c00200
--Memory
-@22
-+{SCRATCH0} TOP.Sim.m_estive.m_cheptel.m_aubrac.m_io.m_mmap.r_scratch_0[31:0]
-+{SCRATCH1} TOP.Sim.m_estive.m_cheptel.m_aubrac.m_io.m_mmap.r_scratch_1[31:0]
-+{SCRATCH2} TOP.Sim.m_estive.m_cheptel.m_aubrac.m_io.m_mmap.r_scratch_2[31:0]
-+{SCRATCH3} TOP.Sim.m_estive.m_cheptel.m_aubrac.m_io.m_mmap.r_scratch_3[31:0]
-+{SCRATCH4} TOP.Sim.m_estive.m_cheptel.m_aubrac.m_io.m_mmap.r_scratch_4[31:0]
-+{SCRATCH5} TOP.Sim.m_estive.m_cheptel.m_aubrac.m_io.m_mmap.r_scratch_5[31:0]
-+{SCRATCH6} TOP.Sim.m_estive.m_cheptel.m_aubrac.m_io.m_mmap.r_scratch_6[31:0]
-+{SCRATCH7} TOP.Sim.m_estive.m_cheptel.m_aubrac.m_io.m_mmap.r_scratch_7[31:0]
-@1401200
--Memory
-@c00200
+@800200
 -Pipeline
 -IF0
-@28
-+{valid} TOP.Sim.m_estive.m_cheptel.m_aubrac.m_pipe.m_front.m_pc.io_b_out_valid
-@22
-+{PC} TOP.Sim.m_estive.m_cheptel.m_aubrac.m_pipe.m_front.m_pc.io_b_out_ctrl_pc[31:0]
-@1401200
+@1000200
 -IF0
-@c00200
+@800200
 -IF1
-@28
-+{valid} TOP.Sim.m_estive.m_cheptel.m_aubrac.m_pipe.m_front.m_if0.io_b_out_valid
-@22
-+{PC} TOP.Sim.m_estive.m_cheptel.m_aubrac.m_pipe.m_front.m_if0.io_b_out_ctrl_pc[31:0]
-+{instr} TOP.Sim.m_estive.m_cheptel.m_aubrac.m_pipe.m_front.m_if3.m_buf.io_b_in_0_ctrl_instr[31:0]
-@1401200
+@1000200
 -IF1
-@c00200
+@800200
 -ID
-@28
-+{valid} TOP.Sim.m_estive.m_cheptel.m_aubrac.m_pipe.m_front.io_b_out_0_valid
-@22
-+{PC} TOP.Sim.m_estive.m_cheptel.m_aubrac.m_pipe.m_front.io_b_out_0_ctrl_pc[31:0]
-+{instr} TOP.Sim.m_estive.m_cheptel.m_aubrac.m_pipe.m_front.io_b_out_0_ctrl_instr[31:0]
-+{s1} TOP.Sim.m_estive.m_cheptel.m_aubrac.m_pipe.m_back.m_id.m_out.io_b_in_data_s1[31:0]
-+{s2} TOP.Sim.m_estive.m_cheptel.m_aubrac.m_pipe.m_back.m_id.m_out.io_b_in_data_s2[31:0]
-+{s3} TOP.Sim.m_estive.m_cheptel.m_aubrac.m_pipe.m_back.m_id.m_out.io_b_in_data_s3[31:0]
-@1401200
+@1000200
 -ID
 @c00200
 -EX
-@28
-+{valid} TOP.Sim.m_estive.m_cheptel.m_aubrac.m_pipe.m_back.m_id.io_b_out_valid
-@22
-+{PC} TOP.Sim.m_estive.m_cheptel.m_aubrac.m_pipe.m_back.m_id.io_b_out_ctrl_info_pc[31:0]
-+{instr} TOP.Sim.m_estive.m_cheptel.m_aubrac.m_pipe.m_back.m_id.io_b_out_ctrl_info_instr[31:0]
-+{s1} TOP.Sim.m_estive.m_cheptel.m_aubrac.m_pipe.m_back.m_id.io_b_out_data_s1[31:0]
-+{s2} TOP.Sim.m_estive.m_cheptel.m_aubrac.m_pipe.m_back.m_id.io_b_out_data_s2[31:0]
-+{s3} TOP.Sim.m_estive.m_cheptel.m_aubrac.m_pipe.m_back.m_id.io_b_out_data_s3[31:0]
-+{res} TOP.Sim.m_estive.m_cheptel.m_aubrac.m_pipe.m_back.m_ex.m_out.io_b_in_data_res[31:0]
 @1401200
 -EX
 @c00200
 -MEM
-@28
-+{valid} TOP.Sim.m_estive.m_cheptel.m_aubrac.m_pipe.m_back.m_ex.io_b_out_valid
-@22
-+{PC} TOP.Sim.m_estive.m_cheptel.m_aubrac.m_pipe.m_back.m_ex.io_b_out_ctrl_info_pc[31:0]
-+{instr} TOP.Sim.m_estive.m_cheptel.m_aubrac.m_pipe.m_back.m_ex.io_b_out_ctrl_info_instr[31:0]
-+{res} TOP.Sim.m_estive.m_cheptel.m_aubrac.m_pipe.m_back.m_ex.io_b_out_data_res[31:0]
-+{s1} TOP.Sim.m_estive.m_cheptel.m_aubrac.m_pipe.m_back.m_ex.io_b_out_data_s1[31:0]
-+{s3} TOP.Sim.m_estive.m_cheptel.m_aubrac.m_pipe.m_back.m_ex.io_b_out_data_s3[31:0]
 @1401200
 -MEM
 @c00200
 -WB
-@28
-+{valid} TOP.Sim.m_estive.m_cheptel.m_aubrac.m_pipe.m_back.m_mem.io_b_out_valid
-@22
-+{PC} TOP.Sim.m_estive.m_cheptel.m_aubrac.m_pipe.m_back.m_mem.io_b_out_ctrl_info_pc[31:0]
-+{instr} TOP.Sim.m_estive.m_cheptel.m_aubrac.m_pipe.m_back.m_mem.io_b_out_ctrl_info_instr[31:0]
-+{res} TOP.Sim.m_estive.m_cheptel.m_aubrac.m_pipe.m_back.m_wb.w_res[31:0]
-+{s1} TOP.Sim.m_estive.m_cheptel.m_aubrac.m_pipe.m_back.m_mem.io_b_out_data_s1[31:0]
-+{s3} TOP.Sim.m_estive.m_cheptel.m_aubrac.m_pipe.m_back.m_mem.io_b_out_data_s3[31:0]
 @1401200
 -WB
 @c00200
 -IPort
-@28
-+{req_ready} TOP.Sim.m_estive.m_cheptel.m_aubrac.m_pipe.io_b_imem_req_ready
-+{req_valid} TOP.Sim.m_estive.m_cheptel.m_aubrac.m_pipe.io_b_imem_req_valid
-@22
-+{req_addr} TOP.Sim.m_estive.m_cheptel.m_aubrac.m_pipe.io_b_imem_req_ctrl_addr[31:0]
-@28
-+{read_ready} TOP.Sim.m_estive.m_cheptel.m_aubrac.m_pipe.io_b_imem_read_ready
-+{read_valid} TOP.Sim.m_estive.m_cheptel.m_aubrac.m_pipe.io_b_imem_read_valid
-@22
-+{read_data} TOP.Sim.m_estive.m_cheptel.m_aubrac.m_pipe.io_b_imem_read_data[31:0]
 @1401200
 -IPort
 @c00200
 -DPort
-@28
-+{req_ready} TOP.Sim.m_estive.m_cheptel.m_aubrac.m_pipe.io_b_dmem_req_ready
-+{req_valid} TOP.Sim.m_estive.m_cheptel.m_aubrac.m_pipe.io_b_dmem_req_valid
-+{req_rw} TOP.Sim.m_estive.m_cheptel.m_aubrac.m_pipe.io_b_dmem_req_ctrl_op
-+{req_size} TOP.Sim.m_estive.m_cheptel.m_aubrac.m_pipe.io_b_dmem_req_ctrl_size[2:0]
-@22
-+{req_addr} TOP.Sim.m_estive.m_cheptel.m_aubrac.m_pipe.io_b_dmem_req_ctrl_addr[31:0]
-@28
-+{read_ready} TOP.Sim.m_estive.m_cheptel.m_aubrac.m_pipe.io_b_dmem_read_ready
-+{read_valid} TOP.Sim.m_estive.m_cheptel.m_aubrac.m_pipe.io_b_dmem_read_valid
-@22
-+{read_data} TOP.Sim.m_estive.m_cheptel.m_aubrac.m_pipe.io_b_dmem_read_data[31:0]
-@28
-+{write_ready} TOP.Sim.m_estive.m_cheptel.m_aubrac.m_pipe.io_b_dmem_write_ready
-+{write_valid} TOP.Sim.m_estive.m_cheptel.m_aubrac.m_pipe.io_b_dmem_write_valid
-@22
-+{write_data} TOP.Sim.m_estive.m_cheptel.m_aubrac.m_pipe.io_b_dmem_write_data[31:0]
 @1401200
 -DPort
+@1000200
 -Pipeline
+@29
+TOP.Sim.m_estive._m_boot_io_b_port_0_write_ready
 [pattern_trace] 1
 [pattern_trace] 0
