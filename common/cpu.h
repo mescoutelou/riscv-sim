@@ -15,7 +15,7 @@
 // ******************************
 //            ADDRESS
 // ******************************
-#define ADDR_CORE_SCRATCH         0x14000000
+#define ADDR_CORE_SCRATCH_MEM     0x14000000
 
 #define ADDR_PLTF_IO_PLIC         0x18000000
 #define ADDR_PLTF_IO_SWIRQ        0x1c000000

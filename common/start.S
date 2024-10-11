@@ -33,7 +33,7 @@ _init:
   sw zero, 4(t0)
 
   # Initializes scratch memory registers
-  li t0, ADDR_CORE_SCRATCH
+  li t0, ADDR_CORE_SCRATCH_MEM
   li t1, 0x54
   li t2, 0x1c
   sw t1, 0(t0)
