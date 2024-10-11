@@ -3,11 +3,11 @@
  * Created Date: 2023-10-09 03:34:09 pm
  * Author: Mathieu Escouteloup
  * -----
- * Last Modified: 2024-02-02 09:35:25 am
+ * Last Modified: 2024-10-11 02:05:46 pm
  * Modified By: Mathieu Escouteloup
  * -----
  * License: See LICENSE.md
- * Copyright (c) 2024 ENSEIRB-MATMECA
+ * Copyright (c) 2024 HerdWare
  * -----
  * Description: 
  */

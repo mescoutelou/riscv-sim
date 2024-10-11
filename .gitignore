@@ -354,6 +354,7 @@ sim/*
 *.aux
 *.glo
 *.ist
+*.vcd
 
 fpga/*/*/xpr/
 fpga/*/*/gen/

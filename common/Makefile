@@ -12,7 +12,7 @@ BOOT_SECTIONS = --only-section .boot* --only-section .text* --only-section .roda
 BOOT_OFFSET = 0x04000000
 
 exec: build
-	./../common/cpu${CPU_NUM}_${HOST} --boot hex/main.boot8.hex --vcd vcd/cpu${CPU_NUM}-main.vcd --ntrigger 1000
+	./../common/cpu${CPU_NUM}/${HOST} --boot hex/main.boot8.hex --vcd vcd/cpu${CPU_NUM}-main.vcd --ntrigger 1000
 
 build: mkdir
 	${TOOLCHAIN}-gcc ${CFLAGS} -c ../common/start.S -o obj/start.o
@@ -24,7 +24,7 @@ build: mkdir
 	python3 ../common/elf2hex.py --input elf/main.boot8.elf --output hex/main.boot8.hex --offset ${BOOT_OFFSET} --wide 16 --word 1
 
 view:
-	gtkwave vcd/cpu${CPU_NUM}-main.vcd ../common/cpu${CPU_NUM}.gtkw &
+	gtkwave vcd/cpu${CPU_NUM}-main.vcd ../common/cpu${CPU_NUM}/view.gtkw &
 
 mkdir:
 	mkdir -p elf/

@@ -3,7 +3,7 @@
  * Created Date: 2023-02-26 09:08:32 pm
  * Author: Mathieu Escouteloup
  * -----
- * Last Modified: 2024-10-09 04:30:27 pm
+ * Last Modified: 2024-10-11 02:04:33 pm
  * Modified By: Mathieu Escouteloup
  * -----
  * License: See LICENSE.md
@@ -15,6 +15,7 @@
 // ******************************
 //            ADDRESS
 // ******************************
+#define ADDR_CORE_SCRATCH_REG     0x10018000
 #define ADDR_CORE_SCRATCH_MEM     0x14000000
 
 #define ADDR_PLTF_IO_PLIC         0x18000000
