@@ -191,14 +191,14 @@ TOP.reset
 @c00200
 -Memory
 @22
-+{SCRATCH0} TOP.Sim.m_estive.m_cheptel.m_aubrac.m_io.m_scratch.r_reg_0[31:0]
-+{SCRATCH1} TOP.Sim.m_estive.m_cheptel.m_aubrac.m_io.m_scratch.r_reg_1[31:0]
-+{SCRATCH2} TOP.Sim.m_estive.m_cheptel.m_aubrac.m_io.m_scratch.r_reg_2[31:0]
-+{SCRATCH3} TOP.Sim.m_estive.m_cheptel.m_aubrac.m_io.m_scratch.r_reg_3[31:0]
-+{SCRATCH4} TOP.Sim.m_estive.m_cheptel.m_aubrac.m_io.m_scratch.r_reg_4[31:0]
-+{SCRATCH5} TOP.Sim.m_estive.m_cheptel.m_aubrac.m_io.m_scratch.r_reg_5[31:0]
-+{SCRATCH6} TOP.Sim.m_estive.m_cheptel.m_aubrac.m_io.m_scratch.r_reg_6[31:0]
-+{SCRATCH7} TOP.Sim.m_estive.m_cheptel.m_aubrac.m_io.m_scratch.r_reg_7[31:0]
++{SCRATCH_REG0} TOP.Sim.m_estive.m_cheptel.m_aubrac.m_io.m_scratch.r_reg_0[31:0]
++{SCRATCH_REG1} TOP.Sim.m_estive.m_cheptel.m_aubrac.m_io.m_scratch.r_reg_1[31:0]
++{SCRATCH_REG2} TOP.Sim.m_estive.m_cheptel.m_aubrac.m_io.m_scratch.r_reg_2[31:0]
++{SCRATCH_REG3} TOP.Sim.m_estive.m_cheptel.m_aubrac.m_io.m_scratch.r_reg_3[31:0]
++{SCRATCH_REG4} TOP.Sim.m_estive.m_cheptel.m_aubrac.m_io.m_scratch.r_reg_4[31:0]
++{SCRATCH_REG5} TOP.Sim.m_estive.m_cheptel.m_aubrac.m_io.m_scratch.r_reg_5[31:0]
++{SCRATCH_REG6} TOP.Sim.m_estive.m_cheptel.m_aubrac.m_io.m_scratch.r_reg_6[31:0]
++{SCRATCH_REG7} TOP.Sim.m_estive.m_cheptel.m_aubrac.m_io.m_scratch.r_reg_7[31:0]
 @1401200
 -Memory
 @c00200
