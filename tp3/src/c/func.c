@@ -16,9 +16,9 @@
 
 volatile uint32_t var;
 volatile __attribute__ ((aligned (1))) uint32_t tab[1];
-volatile __attribute__ ((aligned (256))) uint32_t mat1[8][8];
-volatile __attribute__ ((aligned (256))) uint32_t mat2[8][8];
-volatile __attribute__ ((aligned (256))) uint32_t mat3[8][8];
+volatile __attribute__ ((aligned (256))) uint32_t mat1[8][16];
+volatile __attribute__ ((aligned (256))) uint32_t mat2[8][16];
+volatile __attribute__ ((aligned (256))) uint32_t mat3[8][16];
 
 void func () {
 }
