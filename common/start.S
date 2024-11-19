@@ -39,6 +39,10 @@ _init:
   sw t1, 0(t0)
   sw t2, 4(t0)
 
+  # Prepares microarchitecture
+  li t0, 0x00000f00
+  csrc 0x7c7, t0
+
   # Initializes GPRs
   mv t0, zero
   mv t1, zero
